@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T09:31:03.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="uXf5kjFU4CaywAhC_15k" version="12.2.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-12T09:34:28.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="xl3zrO2hlf9xYU6aKnQ5" version="12.2.3" type="github" pages="4">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="3356" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -588,7 +588,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UML序列图-Server端" id="W-wqWOgiEE__el6pp6Ac">
-    <mxGraphModel dx="2258" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1520" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="xim2NguROJThXROdd409-0"/>
         <mxCell id="xim2NguROJThXROdd409-1" parent="xim2NguROJThXROdd409-0"/>
@@ -606,6 +606,16 @@
         </mxCell>
         <mxCell id="xim2NguROJThXROdd409-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xim2NguROJThXROdd409-5">
           <mxGeometry x="55" y="338" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="WtanYngnmZFz1PqGQHPD-0" value="accept" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontColor=#000000;exitX=0.976;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.167;entryY=0.768;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xim2NguROJThXROdd409-5" source="xim2NguROJThXROdd409-6" target="xim2NguROJThXROdd409-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.11904761904748" y="339.8571428571428" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="92" y="340"/>
+              <mxPoint x="92" y="399"/>
+            </Array>
+            <mxPoint x="70.11904761904748" y="399.3809523809523" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xim2NguROJThXROdd409-7" value=":EventLoop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="xim2NguROJThXROdd409-2">
           <mxGeometry x="950" y="169" width="470" height="1291" as="geometry"/>
@@ -748,8 +758,8 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xim2NguROJThXROdd409-36" value="3. connect" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;" edge="1" parent="xim2NguROJThXROdd409-2" target="xim2NguROJThXROdd409-6">
-          <mxGeometry x="-0.2727" y="20" width="80" relative="1" as="geometry">
+        <mxCell id="xim2NguROJThXROdd409-36" value="3. accept" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;" edge="1" parent="xim2NguROJThXROdd409-2" target="xim2NguROJThXROdd409-6">
+          <mxGeometry x="-0.234" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="120" y="400" as="sourcePoint"/>
             <mxPoint x="340" y="400" as="targetPoint"/>
             <mxPoint as="offset"/>
