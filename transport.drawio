@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-11T14:09:13.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="lC2ScGBWg30vTFJVvrZe" version="12.2.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-12T01:55:27.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="AA66KjCK8TFIukJmRFDx" version="12.2.3" type="github" pages="3">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="870" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -44,34 +44,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-28" value="EventLoop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="460" width="440" height="242" as="geometry"/>
+          <mxGeometry x="60" y="460" width="440" height="268" as="geometry"/>
+        </mxCell>
+        <mxCell id="_bCPvopoZGER6yHDOMZf-104" value="+ std::queue&lt;Task&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+          <mxGeometry y="26" width="440" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
-          <mxGeometry y="26" width="440" height="8" as="geometry"/>
+          <mxGeometry y="52" width="440" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-32" value="+ run()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
-          <mxGeometry y="34" width="440" height="26" as="geometry"/>
-        </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-87" value="+ runInLoop(Task)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-32" value="+ loop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="60" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-33" value="+ queueInLoop(Task)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-87" value="+ runInLoop(Task)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="86" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-37" value="+ TimerId runAt(TimerPoint, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-33" value="+ queueInLoop(Task)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="112" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-38" value="+ TimerId runAfter(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-37" value="+ TimerId runAt(TimerPoint, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="138" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-42" value="+ TimerId runEvery(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-38" value="+ TimerId runAfter(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="164" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-43" value="+ TimerId cancel(TimerId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-42" value="+ TimerId runEvery(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="190" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-34" value="+ quitSafely()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-43" value="+ TimerId cancel(TimerId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
           <mxGeometry y="216" width="440" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="_bCPvopoZGER6yHDOMZf-34" value="+ quitSafely()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-28">
+          <mxGeometry y="242" width="440" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-46" value="Poller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="770" width="290" height="164" as="geometry"/>
@@ -82,7 +85,7 @@
         <mxCell id="_bCPvopoZGER6yHDOMZf-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_bCPvopoZGER6yHDOMZf-46">
           <mxGeometry y="52" width="290" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-50" value="+ poll(std::chrono::milliseconds, EventsList)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="_bCPvopoZGER6yHDOMZf-46">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-50" value="+ poll(std::chrono::milliseconds, &amp;EventsList)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="_bCPvopoZGER6yHDOMZf-46">
           <mxGeometry y="60" width="290" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-51" value="+ addEvent(Event)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="_bCPvopoZGER6yHDOMZf-46">
