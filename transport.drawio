@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T06:56:01.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="D2khDoW5ySkHEEB9hOZN" version="12.2.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-13T06:58:45.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="ZGAWBPvy3GQK1BD6R3Rp" version="12.2.3" type="github" pages="4">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2671" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y8OaXgC5r_cKhnW7X01x" name="UML序列图-Client端">
-    <mxGraphModel dx="1821" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2258" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ptsElyhNpNcPMQXLai7u-0"/>
         <mxCell id="ptsElyhNpNcPMQXLai7u-1" parent="ptsElyhNpNcPMQXLai7u-0"/>
@@ -488,11 +488,11 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VVYg34z5QtqhzuoH_Jqh-14" value="loop" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;entryX=0.09;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VVYg34z5QtqhzuoH_Jqh-96" source="lPqdFf43Rr4BipYVK7T6-39" target="VVYg34z5QtqhzuoH_Jqh-41">
-          <mxGeometry x="-0.7034" width="80" relative="1" as="geometry">
+        <mxCell id="VVYg34z5QtqhzuoH_Jqh-14" value="6. EventLoop.loop" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;entryX=0.09;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VVYg34z5QtqhzuoH_Jqh-96" source="lPqdFf43Rr4BipYVK7T6-39" target="VVYg34z5QtqhzuoH_Jqh-41">
+          <mxGeometry x="-0.886" width="80" relative="1" as="geometry">
             <mxPoint x="120" y="510" as="sourcePoint"/>
             <mxPoint x="990" y="505" as="targetPoint"/>
-            <mxPoint as="offset"/>
+            <mxPoint x="1" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="VVYg34z5QtqhzuoH_Jqh-45" value="invokeChannelRead" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="VVYg34z5QtqhzuoH_Jqh-96">
