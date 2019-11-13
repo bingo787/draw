@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T08:47:38.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="y5Nw3EYYE5NVtgKqpPWE" version="12.2.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-13T08:48:37.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="7Jdaz4wIW7JZcywE4m99" version="12.2.3" type="github" pages="4">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2671" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y8OaXgC5r_cKhnW7X01x" name="UML序列图-Client端">
-    <mxGraphModel dx="4187" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2797" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ptsElyhNpNcPMQXLai7u-0"/>
         <mxCell id="ptsElyhNpNcPMQXLai7u-1" parent="ptsElyhNpNcPMQXLai7u-0"/>
@@ -243,7 +243,7 @@
           <mxGeometry x="990" y="695" width="430" height="235" as="geometry"/>
         </mxCell>
         <mxCell id="083u-KpYR_KQumZKH2ZV-1" value="Channel:ChannelTcp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=4" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="100" y="100" width="120" height="1350" as="geometry"/>
+          <mxGeometry x="100" y="100" width="120" height="1290" as="geometry"/>
         </mxCell>
         <mxCell id="Igo1qUgFDCcL8ZwOw3ck-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="083u-KpYR_KQumZKH2ZV-1">
           <mxGeometry x="55" y="65" width="10" height="45" as="geometry"/>
@@ -252,13 +252,13 @@
           <mxGeometry x="55" y="240" width="10" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="083u-KpYR_KQumZKH2ZV-2" value=":EventLoop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="970" y="470" width="420" height="900" as="geometry"/>
+          <mxGeometry x="970" y="470" width="420" height="920" as="geometry"/>
         </mxCell>
         <mxCell id="VVYg34z5QtqhzuoH_Jqh-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="083u-KpYR_KQumZKH2ZV-2">
           <mxGeometry x="205" y="70" width="10" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="083u-KpYR_KQumZKH2ZV-3" value=":ChannelPipeline" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="325" y="165" width="135" height="1275" as="geometry"/>
+          <mxGeometry x="325" y="165" width="135" height="1235" as="geometry"/>
         </mxCell>
         <mxCell id="VVYg34z5QtqhzuoH_Jqh-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="083u-KpYR_KQumZKH2ZV-3">
           <mxGeometry x="62.5" y="95" width="10" height="80" as="geometry"/>
@@ -298,7 +298,7 @@
           <mxGeometry x="-200" y="135" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="lPqdFf43Rr4BipYVK7T6-39" value=":SdkInit" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="-130" y="40" width="100" height="1480" as="geometry"/>
+          <mxGeometry x="-130" y="40" width="100" height="1340" as="geometry"/>
         </mxCell>
         <mxCell id="mjorzFrOm7Gw1JQCbk44-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="lPqdFf43Rr4BipYVK7T6-39">
           <mxGeometry x="45" y="580" width="10" height="110" as="geometry"/>
@@ -316,10 +316,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lPqdFf43Rr4BipYVK7T6-54" value="Poller:Epoller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=4" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="1274" y="521" width="100" height="839" as="geometry"/>
+          <mxGeometry x="1274" y="521" width="100" height="869" as="geometry"/>
         </mxCell>
         <mxCell id="gUSXGl4DoSfdVQ_Cp0Mj-0" value=":Event" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="570" y="325" width="100" height="1090" as="geometry"/>
+          <mxGeometry x="570" y="325" width="100" height="1075" as="geometry"/>
         </mxCell>
         <mxCell id="VVYg34z5QtqhzuoH_Jqh-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="gUSXGl4DoSfdVQ_Cp0Mj-0">
           <mxGeometry x="45" y="55" width="10" height="75" as="geometry"/>
@@ -405,7 +405,7 @@
           <mxGeometry x="1010" y="845" width="100" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="9gCgKvtud5QyJr_iYikp-1" value="&lt;font color=&quot;#000000&quot;&gt;:EventLoopGroup&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#FF3333;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
-          <mxGeometry x="750" y="100" width="180" height="960" as="geometry"/>
+          <mxGeometry x="750" y="100" width="180" height="1290" as="geometry"/>
         </mxCell>
         <mxCell id="Igo1qUgFDCcL8ZwOw3ck-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="9gCgKvtud5QyJr_iYikp-1">
           <mxGeometry x="85" y="351" width="10" height="89" as="geometry"/>
