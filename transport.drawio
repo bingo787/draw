@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-13T09:02:21.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="47qRpTtYrW2RjNHOCCc3" version="12.2.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-13T10:06:13.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="6HtRqzDMOk-YthZyAzGD" version="12.2.3" type="github" pages="4">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="2671" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3356" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pQ7dtovfqLk3mC11gynK" name="UML活动图">
-    <mxGraphModel dx="1168" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="rYr7WCL7WObzl--F8MwN-0"/>
         <mxCell id="rYr7WCL7WObzl--F8MwN-1" parent="rYr7WCL7WObzl--F8MwN-0"/>
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y8OaXgC5r_cKhnW7X01x" name="UML序列图-Client端">
-    <mxGraphModel dx="2797" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2506" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ptsElyhNpNcPMQXLai7u-0"/>
         <mxCell id="ptsElyhNpNcPMQXLai7u-1" parent="ptsElyhNpNcPMQXLai7u-0"/>
@@ -381,7 +381,7 @@
             <mxPoint x="400.5" y="1110.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VVYg34z5QtqhzuoH_Jqh-53" value="tail header" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
+        <mxCell id="VVYg34z5QtqhzuoH_Jqh-53" value="tail handler" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
           <mxGeometry x="300" y="889" width="80" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="VVYg34z5QtqhzuoH_Jqh-54" value="decoder handler " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="ptsElyhNpNcPMQXLai7u-1">
@@ -513,7 +513,7 @@
             <mxPoint x="1190" y="850" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mjorzFrOm7Gw1JQCbk44-14" value="handle Callback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#000000;fontColor=#000000;exitX=0.5;exitY=0.747;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ptsElyhNpNcPMQXLai7u-1" source="mjorzFrOm7Gw1JQCbk44-4" target="mjorzFrOm7Gw1JQCbk44-13">
+        <mxCell id="mjorzFrOm7Gw1JQCbk44-14" value="handle ReadEvent" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#000000;fontColor=#000000;exitX=0.5;exitY=0.747;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ptsElyhNpNcPMQXLai7u-1" source="mjorzFrOm7Gw1JQCbk44-4" target="mjorzFrOm7Gw1JQCbk44-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="990" y="880" as="sourcePoint"/>
             <mxPoint x="910" y="880" as="targetPoint"/>
@@ -577,12 +577,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UML序列图-Server端" id="W-wqWOgiEE__el6pp6Ac">
-    <mxGraphModel dx="2519" dy="2126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2023" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="xim2NguROJThXROdd409-0"/>
         <mxCell id="xim2NguROJThXROdd409-1" parent="xim2NguROJThXROdd409-0"/>
+        <mxCell id="MfLiCVs87sjw-zHd86cb-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="xim2NguROJThXROdd409-1">
+          <mxGeometry x="-370" y="140" width="1120" height="430" as="geometry"/>
+        </mxCell>
         <mxCell id="xim2NguROJThXROdd409-20" value=":MasterInit" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="xim2NguROJThXROdd409-1">
-          <mxGeometry x="-270" y="10" width="100" height="620" as="geometry"/>
+          <mxGeometry x="-270" y="10" width="100" height="550" as="geometry"/>
         </mxCell>
         <mxCell id="0YpTv0kY4YQQaOantvKO-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="xim2NguROJThXROdd409-20">
           <mxGeometry x="45" y="150" width="10" height="80" as="geometry"/>
@@ -597,13 +600,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="450" as="sourcePoint"/>
             <mxPoint x="50" y="450" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MfLiCVs87sjw-zHd86cb-3" value="register channel tcp to event loop&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontColor=#000000;entryX=0.1;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xim2NguROJThXROdd409-20" target="MfLiCVs87sjw-zHd86cb-1">
-          <mxGeometry x="-0.7399" y="5" width="80" relative="1" as="geometry">
-            <mxPoint x="60" y="500" as="sourcePoint"/>
-            <mxPoint x="140" y="500" as="targetPoint"/>
-            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="xim2NguROJThXROdd409-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="xim2NguROJThXROdd409-1">
@@ -625,7 +621,7 @@
           <mxGeometry x="-200" y="40" width="1790" height="1460" as="geometry"/>
         </mxCell>
         <mxCell id="x0nply49eelEwKOfOxyo-5" value=":TcpServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-2">
-          <mxGeometry x="90" y="30" width="100" height="560" as="geometry"/>
+          <mxGeometry x="90" y="30" width="100" height="490" as="geometry"/>
         </mxCell>
         <mxCell id="x0nply49eelEwKOfOxyo-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="x0nply49eelEwKOfOxyo-5">
           <mxGeometry x="45" y="85" width="10" height="105" as="geometry"/>
@@ -641,16 +637,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x0nply49eelEwKOfOxyo-17" value=":ChannelTcp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-2">
-          <mxGeometry x="200" y="190" width="100" height="400" as="geometry"/>
+          <mxGeometry x="200" y="190" width="100" height="340" as="geometry"/>
         </mxCell>
         <mxCell id="OJenYsdd6WlZf8EQJnQP-0" value=":EventLoopGroup" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-2">
-          <mxGeometry x="624" y="40" width="100" height="550" as="geometry"/>
+          <mxGeometry x="624" y="40" width="100" height="480" as="geometry"/>
         </mxCell>
         <mxCell id="OJenYsdd6WlZf8EQJnQP-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="OJenYsdd6WlZf8EQJnQP-0">
           <mxGeometry x="45" y="301" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="MfLiCVs87sjw-zHd86cb-0" value=":EventLoop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-2">
-          <mxGeometry x="790" y="350" width="100" height="240" as="geometry"/>
+          <mxGeometry x="790" y="350" width="100" height="170" as="geometry"/>
         </mxCell>
         <mxCell id="MfLiCVs87sjw-zHd86cb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="MfLiCVs87sjw-zHd86cb-0">
           <mxGeometry x="45" y="71" width="10" height="59" as="geometry"/>
@@ -659,6 +655,13 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="685" y="359.66999999999996" as="sourcePoint"/>
             <mxPoint x="790" y="359.66999999999996" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfLiCVs87sjw-zHd86cb-3" value="register channel tcp to event loop&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontColor=#000000;entryX=0.1;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xim2NguROJThXROdd409-2" source="x0nply49eelEwKOfOxyo-5" target="MfLiCVs87sjw-zHd86cb-1">
+          <mxGeometry x="-0.7399" y="5" width="80" relative="1" as="geometry">
+            <mxPoint x="-10" y="470" as="sourcePoint"/>
+            <mxPoint x="70" y="470" as="targetPoint"/>
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="x0nply49eelEwKOfOxyo-19" value="add handler to pipeline&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontColor=#000000;" edge="1" parent="xim2NguROJThXROdd409-1" target="TRQ26gh7knaaH_oL8JzN-0">
@@ -672,7 +675,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TRQ26gh7knaaH_oL8JzN-0" value=":ChannelPipeline" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-1">
-          <mxGeometry x="190" y="253" width="100" height="377" as="geometry"/>
+          <mxGeometry x="190" y="253" width="100" height="317" as="geometry"/>
         </mxCell>
         <mxCell id="TRQ26gh7knaaH_oL8JzN-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="TRQ26gh7knaaH_oL8JzN-0">
           <mxGeometry x="50" y="60" width="10" height="68" as="geometry"/>
@@ -708,11 +711,8 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MfLiCVs87sjw-zHd86cb-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="xim2NguROJThXROdd409-1">
-          <mxGeometry x="-370" y="140" width="1120" height="430" as="geometry"/>
-        </mxCell>
-        <mxCell id="MfLiCVs87sjw-zHd86cb-6" value="server端需要解决 new 出来的ChannelTcp谁来释放的问题？&lt;br&gt;server端还需要保存所有的ChannelTcp" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-1">
-          <mxGeometry x="-110" y="-80" width="300" height="70" as="geometry"/>
+        <mxCell id="MfLiCVs87sjw-zHd86cb-6" value="&lt;br&gt;server端还需要保存所有建立的ChannelTcp，如何保存？&lt;br&gt;server端需要解决 new 出来的ChannelTcp谁来释放的问题？" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="xim2NguROJThXROdd409-1">
+          <mxGeometry x="-110" y="-80" width="440" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
