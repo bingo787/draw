@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-14T06:39:42.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="3QAXqWdlwWMVU9SZgWZa" version="12.2.6" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-14T06:43:27.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="Z-dFqhE0KSVjMtMLCq8M" version="12.2.6" type="github" pages="4">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="3356" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-28" value="EventLoop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="820" y="1234" width="440" height="320" as="geometry"/>
+          <mxGeometry x="240" y="1164" width="440" height="320" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-104" value="+ std::queue&lt;Task&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
           <mxGeometry y="26" width="440" height="26" as="geometry"/>
@@ -101,13 +101,13 @@
         <mxCell id="_bCPvopoZGER6yHDOMZf-33" value="+ queueInLoop(Task)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
           <mxGeometry y="164" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-37" value="+ TimerId runAt(TimerPoint, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-37" value="+ TimerId runAt(Task,TimePoint)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
           <mxGeometry y="190" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-38" value="+ TimerId runAfter(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-38" value="+ TimerId runAfter(Task,std::chrono::milliseconds)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
           <mxGeometry y="216" width="440" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="_bCPvopoZGER6yHDOMZf-42" value="+ TimerId runEvery(std::chrono::milliseconds, TimerCallback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
+        <mxCell id="_bCPvopoZGER6yHDOMZf-42" value="+ TimerId runEvery(Task,std::chrono::milliseconds)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
           <mxGeometry y="242" width="440" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-43" value="+ TimerId cancel(TimerId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-28" vertex="1">
@@ -117,7 +117,7 @@
           <mxGeometry y="294" width="440" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-46" value="Poller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="984" y="972" width="290" height="164" as="geometry"/>
+          <mxGeometry x="-470" y="930" width="290" height="164" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-47" value="-  field: mEventsList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-46" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry"/>
@@ -138,7 +138,7 @@
           <mxGeometry y="138" width="290" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-53" value="Event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1070" y="692" width="290" height="294" as="geometry"/>
+          <mxGeometry x="-800" y="930" width="290" height="294" as="geometry"/>
         </mxCell>
         <mxCell id="_bCPvopoZGER6yHDOMZf-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_bCPvopoZGER6yHDOMZf-53" vertex="1">
           <mxGeometry y="26" width="290" height="8" as="geometry"/>
@@ -252,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UBo6YFQWtfqeJysy8--F-12" value="EventLoopGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1230" width="440" height="138" as="geometry"/>
+          <mxGeometry x="-260" y="1160" width="440" height="138" as="geometry"/>
         </mxCell>
         <mxCell id="lD_bm00DhUS5vVNwzztA-17" value="+ std::vecotr&lt;std::shared_ptr&lt;EventLoop&gt;&gt; mEventLoops" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UBo6YFQWtfqeJysy8--F-12">
           <mxGeometry y="26" width="440" height="26" as="geometry"/>
@@ -334,8 +334,8 @@
         </mxCell>
         <mxCell id="lD_bm00DhUS5vVNwzztA-16" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=1.004;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.006;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_bCPvopoZGER6yHDOMZf-28" target="UBo6YFQWtfqeJysy8--F-12">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="930" y="1180" as="sourcePoint"/>
-            <mxPoint x="790" y="1180" as="targetPoint"/>
+            <mxPoint x="350" y="1110" as="sourcePoint"/>
+            <mxPoint x="210" y="1110" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="lD_bm00DhUS5vVNwzztA-25" value="ChannelHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
