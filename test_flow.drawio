@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T06:23:12.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="AlK4OrApXNabXRJ8I0eG" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-31T06:36:17.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="xdr7zIWBF7XkpEnI3o0p" version="12.9.5" type="github" pages="4">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -393,7 +393,7 @@
           <mxGeometry x="250" y="110" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-6" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
-          <mxGeometry x="250" y="970" width="100" height="60" as="geometry" />
+          <mxGeometry x="250" y="960" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-9" target="nz4P-UtGLCFWyfLi2Khx-11">
           <mxGeometry relative="1" as="geometry" />
@@ -419,18 +419,18 @@
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-15" target="nz4P-UtGLCFWyfLi2Khx-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-15" value="&amp;nbsp;计算并记录本次响应时间=&lt;br&gt;T2-T1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-15" value="&amp;nbsp;计算并保存本次响应时间=&lt;br&gt;T2-T1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
           <mxGeometry x="250" y="400" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-17" target="nz4P-UtGLCFWyfLi2Khx-24">
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-17" target="nz4P-UtGLCFWyfLi2Khx-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="510" />
+              <mxPoint x="440" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-17" value="错误 +1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
-          <mxGeometry x="400" y="410" width="100" height="60" as="geometry" />
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-17" value="出错次数 +1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
+          <mxGeometry x="390" y="400" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-19" target="nz4P-UtGLCFWyfLi2Khx-3">
           <mxGeometry relative="1" as="geometry" />
@@ -467,19 +467,19 @@
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-28" target="nz4P-UtGLCFWyfLi2Khx-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-28" value="初始化&lt;br&gt;错误归零&lt;br&gt;测试次数归零" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;fontSize=10;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-28" value="初始化&lt;br&gt;出错次数归零&lt;br&gt;测试次数归零" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;fontSize=10;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
           <mxGeometry x="238.75" y="-60" width="122.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-32" target="nz4P-UtGLCFWyfLi2Khx-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-32" value="分析处理数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-32" value="分析处理响应时间和出错次数的数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
           <mxGeometry x="250" y="780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="nz4P-UtGLCFWyfLi2Khx-1" source="nz4P-UtGLCFWyfLi2Khx-33" target="nz4P-UtGLCFWyfLi2Khx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nz4P-UtGLCFWyfLi2Khx-33" value="最大响应时间&lt;br&gt;最小响应时间&lt;br&gt;响应时间中位数" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=10;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
+        <mxCell id="nz4P-UtGLCFWyfLi2Khx-33" value="最大响应时间&lt;br&gt;最小响应时间&lt;br&gt;响应时间中位数&lt;br&gt;错误率" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=10;align=center;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
           <mxGeometry x="230" y="870" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nz4P-UtGLCFWyfLi2Khx-38" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=10;" vertex="1" parent="nz4P-UtGLCFWyfLi2Khx-1">
