@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T07:53:02.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="H7pOjW3KMgSrTZTrpYok" version="12.9.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-31T10:35:48.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="2CJa5r6Gkc6BoYZbEDFN" version="12.9.5" type="github" pages="6">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -501,7 +501,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Copy of Copy of Page-2" id="8DTXfOfhrjRGTC0fwavm">
-    <mxGraphModel dx="985" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="_S8YhKUkcJXO5SOyUj-S-0" />
         <mxCell id="_S8YhKUkcJXO5SOyUj-S-1" parent="_S8YhKUkcJXO5SOyUj-S-0" />
@@ -603,13 +603,13 @@
         <mxCell id="jrQw542G88VGFbhkKYwS-0" value="获取当前系统时间T0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;fontSize=12;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
           <mxGeometry x="250" y="-60" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_S8YhKUkcJXO5SOyUj-S-29" value="计算吞吐率=(T4-T0)/C&lt;br&gt;处理响应时间(MAX,MIN,MEDIAN)&lt;br&gt;计算错误率=Error/C" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
+        <mxCell id="_S8YhKUkcJXO5SOyUj-S-29" value="Throughput=(T4-T0)/C&lt;br&gt;Response Time(min,max,median)&lt;br&gt;ErrorRate=Error/C" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
           <mxGeometry x="200" y="880" width="197.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_S8YhKUkcJXO5SOyUj-S-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="_S8YhKUkcJXO5SOyUj-S-1" source="_S8YhKUkcJXO5SOyUj-S-32" target="_S8YhKUkcJXO5SOyUj-S-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_S8YhKUkcJXO5SOyUj-S-32" value="最大响应时间&lt;br style=&quot;font-size: 12px;&quot;&gt;最小响应时间&lt;br style=&quot;font-size: 12px;&quot;&gt;响应时间中位数&lt;br style=&quot;font-size: 12px;&quot;&gt;错误率" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;align=center;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
+        <mxCell id="_S8YhKUkcJXO5SOyUj-S-32" value="最大响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;最小响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;响应时间中位数&lt;br style=&quot;font-size: 12px&quot;&gt;错误率1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;align=center;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
           <mxGeometry x="228.75" y="960" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_S8YhKUkcJXO5SOyUj-S-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="_S8YhKUkcJXO5SOyUj-S-1" source="_S8YhKUkcJXO5SOyUj-S-29" target="_S8YhKUkcJXO5SOyUj-S-32">
@@ -633,6 +633,71 @@
         <mxCell id="jrQw542G88VGFbhkKYwS-5" value="获取当前系统时间T4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=center;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
           <mxGeometry x="250" y="790" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-5" value="" style="group" vertex="1" connectable="0" parent="_S8YhKUkcJXO5SOyUj-S-1">
+          <mxGeometry x="460" y="880" width="197.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-0" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-5">
+          <mxGeometry x="48.75" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-1" value="计算吞吐率=(T4-T0)/C&lt;br&gt;处理响应时间(MAX,MIN,MEDIAN)&lt;br&gt;计算错误率=Error/C" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-5">
+          <mxGeometry width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-5" source="uCYo0PckpXJe7v6v9lYG-3" target="uCYo0PckpXJe7v6v9lYG-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-3" value="最大响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;最小响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;响应时间中位数&lt;br style=&quot;font-size: 12px&quot;&gt;错误率2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-5">
+          <mxGeometry x="28.75" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-5" source="uCYo0PckpXJe7v6v9lYG-1" target="uCYo0PckpXJe7v6v9lYG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-6" value="" style="group" vertex="1" connectable="0" parent="_S8YhKUkcJXO5SOyUj-S-1">
+          <mxGeometry x="700" y="880" width="197.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-7" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-6">
+          <mxGeometry x="48.75" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-8" value="计算吞吐率=(T4-T0)/C&lt;br&gt;处理响应时间(MAX,MIN,MEDIAN)&lt;br&gt;计算错误率=Error/C" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-6">
+          <mxGeometry width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-6" source="uCYo0PckpXJe7v6v9lYG-10" target="uCYo0PckpXJe7v6v9lYG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-10" value="最大响应时间&lt;br style=&quot;font-size: 12px;&quot;&gt;最小响应时间&lt;br style=&quot;font-size: 12px;&quot;&gt;响应时间中位数&lt;br style=&quot;font-size: 12px;&quot;&gt;错误率" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-6">
+          <mxGeometry x="28.75" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-6" source="uCYo0PckpXJe7v6v9lYG-8" target="uCYo0PckpXJe7v6v9lYG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-12" value="" style="group" vertex="1" connectable="0" parent="_S8YhKUkcJXO5SOyUj-S-1">
+          <mxGeometry x="930" y="880" width="197.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-13" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-12">
+          <mxGeometry x="48.75" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-14" value="计算吞吐率=(T4-T0)/C&lt;br&gt;处理响应时间(MAX,MIN,MEDIAN)&lt;br&gt;计算错误率=Error/C" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-12">
+          <mxGeometry width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-12" source="uCYo0PckpXJe7v6v9lYG-16" target="uCYo0PckpXJe7v6v9lYG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-16" value="最大响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;最小响应时间&lt;br style=&quot;font-size: 12px&quot;&gt;响应时间中位数&lt;br style=&quot;font-size: 12px&quot;&gt;错误率n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;align=center;" vertex="1" parent="uCYo0PckpXJe7v6v9lYG-12">
+          <mxGeometry x="28.75" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="uCYo0PckpXJe7v6v9lYG-12" source="uCYo0PckpXJe7v6v9lYG-14" target="uCYo0PckpXJe7v6v9lYG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCYo0PckpXJe7v6v9lYG-18" value="响应时间中位数=MEDIAN()&lt;br&gt;错误率 = (错误率1+错误率2+错误率3+错误率n)/n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;align=center;" vertex="1" parent="_S8YhKUkcJXO5SOyUj-S-1">
+          <mxGeometry x="470" y="1190" width="270" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rndHXA8X6Bum1t_mD3ur" name="Page-6">
+    <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5pEPQJHMT2DdVxvJesVx-0" />
+        <mxCell id="5pEPQJHMT2DdVxvJesVx-1" parent="5pEPQJHMT2DdVxvJesVx-0" />
       </root>
     </mxGraphModel>
   </diagram>
